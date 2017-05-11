@@ -1,0 +1,7 @@
+name,age
+"Matsumoto, Yukihiro", 35
+"van Rossum, Guido", 49
+"Goldberg, Adele", 55
+"Kay, Alan", 19, 157
+"Wall, Larry", 23
+EOF
