@@ -91,6 +91,15 @@ module Model
         end
       end
 
+      if line[i] == ","
+        if is_string == false
+          if !token.to_s.empty?
+            tokens.push(token.to_i)
+            token = ""
+          end
+        end
+      end
+
       # We don't want to add to the token the useless char "
       # We also don't want to add the comma in the case that it's a number
       if line[i] != "\""
