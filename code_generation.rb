@@ -24,7 +24,7 @@ module Model
     values = []
 
     i = 0
-    
+
     # Opening the file and looping through each line
     File.open(filename, "r") do |f|
       f.each_line do |line|
@@ -133,6 +133,5 @@ module Model
   end
 
 end
-
 
 Model.load_from_file("toto.txt")

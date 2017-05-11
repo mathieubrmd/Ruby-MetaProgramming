@@ -1,7 +1,10 @@
-name,age
-"Matsumoto, Yukihiro", 35
-"van Rossum, Guido", 49
-"Goldberg, Adele", 55
-"Kay, Alan", 19, 157
-"Wall, Larry", 23
-EOF
+author,title,year
+"Marcel Proust","In Search of Lost Time",1913
+"James Joyce","Ulysses",1904
+"Miguel de Cervantes","Don Quixote",1605
+"Herman Melville","Moby Dick",1851
+"William Shakespeare","Hamlet",1599
+"Leo Tolstoy","War and Peace",1869
+"F. Scott Fitzgerald","The Great Gatsby",1925
+"Gustave Flaubert","Madame Bovary",1856
+"Jane Austen","Pride and Prejudice",1796
