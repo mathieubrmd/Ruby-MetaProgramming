@@ -1,5 +1,5 @@
 name,age
-"Matsumoto, Yukihiro", 35, 23, "toto"
+"Matsumoto, Yukihiro", 35
 "van Rossum, Guido", 49
 "Goldberg, Adele", 55
 "Kay, Alan", 19, 157
