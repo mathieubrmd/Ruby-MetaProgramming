@@ -4,12 +4,17 @@
 
 class Array
   def select_first(attr)
+
     attr_name = attr.keys[0]
     attr_values = attr.values[0]
 
     self.each do | x |
-      if eval("x.#{attr_name} == '#{attr_values}'")
-        return x
+
+      attr.values.each do | val |
+        if eval("x.#{attr_name} == '#{val}'")
+          p x
+          return x
+        end
       end
     end
 
