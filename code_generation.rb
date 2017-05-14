@@ -21,6 +21,8 @@ module Model
 
     objects = []
 
+    puts(name)
+
     # Creating programatically the new class with the name
     newClass = Object.const_set(name, Class.new)
 
@@ -41,7 +43,7 @@ module Model
     # We need to create the X elements and sets the values to the attributes
     i = 0
     while (i < attr_values.length)
-      obj = newClass.new(attr_values[i])
+      obj = newClass.new(*attr_values[i])
       objects.push(obj)
       i = i + 1
     end
@@ -50,5 +52,3 @@ module Model
 
   end
 end
-
-puts Model.load_from_file("toto.txt")

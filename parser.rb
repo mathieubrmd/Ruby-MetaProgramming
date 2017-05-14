@@ -3,6 +3,10 @@ module Parser
   # This method takes the filename as argument
   # It returns the class name : From toto.txt to Toto
   def Parser.get_classname_from_file(filename)
+    if (filename[0] == "." && filename[1] == "/")
+      filename = filename[2..-2]
+    end
+
     # Removing the file extension
     class_name = filename.split('.').first
     # Capitalize the first letter
