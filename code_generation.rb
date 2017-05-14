@@ -21,8 +21,6 @@ module Model
 
     objects = []
 
-    puts(name)
-
     # Creating programatically the new class with the name
     newClass = Object.const_set(name, Class.new)
 
